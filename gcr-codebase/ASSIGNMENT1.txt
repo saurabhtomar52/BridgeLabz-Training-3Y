@@ -1,0 +1,97 @@
+Web Development Assignment
+
+Question 1: Explain the difference between frontend, backend, and
+full-stack development with suitable real-world examples.
+
+Answer: Frontend Development - The part of a website users can see and
+interact with. - Technologies: HTML, CSS, JavaScript, React. - Focuses
+on UI and UX.
+
+Backend Development - The part that works behind the scenes. -
+Technologies: Node.js, Java, Python, PHP. - Handles business logic,
+authentication, APIs, and databases.
+
+Full-Stack Development - Includes both frontend and backend
+development. - Builds complete web applications.
+
+Real-World Example (Amazon) - Frontend: Product pages, search, shopping
+cart. - Backend: Login, payments, inventory, order processing. -
+Full-Stack: Develops both frontend and backend.
+
+Question 2: Create a simple diagram showing how the client-server model
+works in web architecture.
+
+Answer:
+
+CLIENT (Browser) | HTTP/HTTPS Request | WEB SERVER (Apache / Nginx /
+IIS) | DATABASE (MySQL / PostgreSQL) | WEB SERVER | Browser Displays
+Webpage
+
+Question 3: Describe how a browser requests and displays a web page from
+a web server.
+
+Answer: 1. User enters a URL. 2. Browser finds the server IP using DNS.
+3. Browser sends an HTTP/HTTPS request. 4. Server processes the request.
+5. Server fetches data from the database if required. 6. Server sends
+HTML, CSS, JavaScript, and images. 7. Browser renders and displays the
+webpage.
+
+Question 4: List the tools required to set up a web development
+environment.
+
+Answer: - VS Code: Code editor. - Google Chrome: Test websites. - Chrome
+DevTools: Debug applications. - Git: Version control. - GitHub: Code
+hosting. - Node.js: JavaScript runtime. - npm: Package manager. - Live
+Server: Auto-refresh during development.
+
+Question 5: Explain what a web server is and give examples.
+
+Answer: A web server receives HTTP/HTTPS requests and sends web pages or
+data back to clients.
+
+Examples: - Apache HTTP Server - Nginx - Microsoft IIS - LiteSpeed -
+Caddy
+
+Question 6: Define the roles of frontend developer, backend developer,
+and database administrator.
+
+Answer: Frontend Developer: - Builds user interface. - Creates
+responsive layouts. - Connects frontend to APIs.
+
+Backend Developer: - Builds APIs. - Handles authentication. - Connects
+to databases.
+
+Database Administrator (DBA): - Designs databases. - Creates backups. -
+Optimizes performance. - Manages security.
+
+Question 7: Install VS Code and configure it for HTML, CSS, and
+JavaScript.
+
+Answer: 1. Install VS Code. 2. Install extensions: - Live Server - HTML
+CSS Support - Prettier - Auto Rename Tag - Auto Close Tag 3. Create: -
+index.html - style.css - script.js 4. Run with Live Server. 5. Take a
+screenshot showing the setup.
+
+Question 8: Explain the difference between static and dynamic websites.
+
+Answer: Static Website: - Same content for every user. - No backend
+required. - Example: Portfolio website.
+
+Dynamic Website: - Content changes based on user or database. - Requires
+backend. - Example: Amazon, Facebook, Instagram.
+
+Question 9: List five web browsers and explain rendering engines.
+
+Answer: - Google Chrome — Blink - Microsoft Edge — Blink - Mozilla
+Firefox — Gecko - Apple Safari — WebKit - Opera — Blink
+
+Rendering engines convert HTML, CSS, and JavaScript into visible web
+pages.
+
+Question 10: Draw the basic web architecture flow.
+
+Answer:
+
+USER | CLIENT (Browser) | HTTP/HTTPS Request | WEB SERVER | +———————-+ |
+DATABASE | APIs | +———————-+ | WEB SERVER | HTML/CSS/JavaScript | CLIENT
+| User Sees Website
